@@ -1,0 +1,50 @@
+
+/*body>span{ 
+	background:orange; 
+	height:50px;
+	width:100px;
+	display:table-cell;
+
+    overflow:auto;
+   /* float:right;*/
+
+}*/
+div{
+	background:lightblue; 
+	height:60px;
+	width:70px;
+	display:inline-block;
+	
+     overflow:auto;
+display:none;
+
+}
+p{
+   background:pink;
+   height:50px;
+   width:100px;
+   
+   display:table-cell;
+
+
+}
+body{
+  display:table;
+  background-image: url("imgs/four.jpg");
+  background-color: grey;
+}
+main{
+	border:10px solid black;
+	width:100px;
+    height:200px;
+margin-top:100px;
+
+
+}
+span{
+	color:white;
+	padding:50px;
+margin:100px;
+	
+}
+	

@@ -1,0 +1,66 @@
+/*Set the table color, border, and spacing...*/
+table.cal{
+	color:black;
+	border-spacing: 0 ;
+	border: 3px solid black;
+	-webkit-border-radius: 25px 25px 0 0;
+	border-radius: 0 0 29px 25px;
+}
+tr:nth-child(odd){
+ background-color: pink;
+}
+tr:nth-child(even){
+ background-color: orange;
+}
+tr:last-child{
+	border-radius:0 0 25px 25px;
+}
+tr:last-child>td:last-child{
+	border-radius: 0 0 25px 0;	
+}
+tr:last-child>td:first-child{
+	border-radius:0 0 0 20px;
+}
+
+caption{
+	text-transform: uppercase;
+	background-color: grey;
+	color:white;
+	font-size:150%;
+	border-radius:25px 25px 0 0;
+}
+table th{
+	padding-bottom:5px;
+	
+}
+
+th{
+	text-align: center;
+	background: purple;
+}
+.cal td{
+	width:75px;
+	height:75px;
+	vertical-align:top;
+
+}
+/*Format any holidays*/
+.holiday{
+	background-color: green;
+}
+
+/*Use a background image*/
+.old{
+
+	background-color: lightgrey;
+	color:rgba(0,0,0,.25);
+}
+span{
+	visibility: hidden;
+	color:red;
+	text-align: center;
+	display:block;
+}
+td:active>span{
+	visibility: visible;
+}

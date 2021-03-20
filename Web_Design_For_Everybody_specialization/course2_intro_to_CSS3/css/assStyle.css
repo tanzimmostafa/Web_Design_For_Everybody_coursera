@@ -1,0 +1,39 @@
+/*style sheet dor ass1course1*/
+body{
+
+	background-color: lightgrey
+}
+h1{
+	font-size:200%;
+	color:purple;
+}
+header{
+ text-align:center;
+}
+nav{
+    color:lightpurple;
+	font-size:125%;
+	font-variant:small-caps;
+	font-style:italic;
+}
+h2{
+    
+    font-family:Arial;
+	color:green;
+	background-color;
+	font-style:italic;
+
+}
+li{
+	font-family:Papyrus;
+    font-size:105%;	
+}
+details{
+	font-style:italic;
+}
+summary{
+font-family:Arial;	
+font-style: normal;
+font-size:110%;
+
+}

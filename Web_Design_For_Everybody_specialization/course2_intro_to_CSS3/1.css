@@ -1,0 +1,43 @@
+body{
+	background-color: #F2F2F2;
+	margin: 1%;
+	padding:1.5%;
+}
+
+nav{
+	box-sizing:border-box;
+	border: 3px solid #06425C;
+	color:black;
+	background-color:green;
+	display: inline-block;
+	width: 22%;
+	min-width: 125px;
+	margin-right:25px;
+	height:100vh;
+	overflow: auto;
+  float:left;
+}
+
+nav a{
+	display:block;
+  border:solid black;
+	line-height:55px ;
+	height:55px;
+	color: white;
+	background-color:orange;
+	text-decoration: none;
+	background-color:orange;
+	background: url('c2Webpages/images/lightning.png') no-repeat;
+	background-position: left center;
+	padding-left: 50px;
+	margin:20px 0 20px 5px;
+}
+
+section{
+	display: inline-block;
+	width:70%;
+	height:100vh;
+  float:left;
+  overflow:auto;
+	
+}
