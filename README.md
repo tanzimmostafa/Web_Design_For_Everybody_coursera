@@ -1,4 +1,4 @@
-# web_design_for_everybody_specialization_coursera
+# Web Design For Everybody Specialization on Coursera
 
 This repository contains some of my assignments involving html and css I had to complete in course 1 and course 2 of the web design for everybody specialization offered by University of Michigan on coursera.
 
